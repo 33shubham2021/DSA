@@ -1,0 +1,12 @@
+from Btree import BTree,BTreeNode
+
+bt = BTree(t=3)  # Minimum degree = 3
+
+values = [10, 20, 5, 6, 12, 30, 7, 17]
+for v in values:
+    bt.insert(v)
+
+bt.print_tree()
+
+print(bt.search(12))   # Found
+print(bt.search(100))  # Not found
