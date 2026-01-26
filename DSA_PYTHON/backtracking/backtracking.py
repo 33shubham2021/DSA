@@ -1,7 +1,4 @@
 """
-Greedy about one factor - easy question, about multiple factors - hard problems
-for every greedy questions, try being greedy about each individual factors one by one
-
 Path problems in a maze, this in itself is a huge topic, combining graphs (DFS, BFS), DP and backtracking
 
 Link - https://www.geeksforgeeks.org/dsa/tutorial-on-path-problems-in-a-grid-maze-or-matrix/
